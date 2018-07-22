@@ -1,0 +1,17 @@
+.img-fluid{
+  max-width: 200px;
+}
+
+@media screen and (max-width: 350px){
+  .img-fluid{
+    max-width:200px;
+  }
+}
+
+.t-index{
+  text-align: center;
+}
+
+.p-index{
+  padding-top: 10px;
+}
