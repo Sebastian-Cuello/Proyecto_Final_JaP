@@ -10,12 +10,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="CSS/Estilo.css">
 		<script type="text/javascript" src="Scripts/Control.js"></script>
+		<link rel="shortcut icon" type="image/x-icon" href="Imagenes/Icono.ico" />
 	</head>
 	<header>
 		
 	</header>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
-		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">  
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="Barra">  
 			<a class="navbar-brand" style="color: white;">Axel Cuello</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		  		<span class="navbar-toggler-icon"></span>
@@ -36,13 +37,13 @@
 		</nav>
 		<div id="Inicio" class="container-fluid" style="padding-top:70px;padding-bottom:40px">
   			<div class="jumbotron" style="margin-bottom: 0px; margin-top: 20px; background-image: url(Imagenes/F-Biografía.jpg); background-repeat: no-repeat; background-size: cover;">
-			<h1 class="t-index">Biografía</h1>
+			<h1 class="t-index" style="color: white;">Biografía</h1>
 				<div class="row">
 					<div class="col-md-3">
 						<img src="Imagenes/Yo.png" class="img-fluid mx-auto d-block">
 					</div>
 					<div class="col-md-9">
-						<p class="p-index" style="color: white;">Mi nombre es Axel Cuello, tengo 19 años, vivo actualmente en la zona de Sayago dentro del departamento de Montevideo. Soy fanático de la tecnología informática, me gusta mucho aprende cosas nuevas todo el tiempo y sobre todo tipo de temas. Me gusta tocar el piano y la guitarra. Soy estudiante de ingeniería en computación y me gustaría en un futuro poder recibirme de esto porqué pienso que la informática es el futuro. Si ya estás aquí, da un vistazo a mi página para conocerme.</p>
+						<p class="p-index" style="color: white;">Mi nombre es Axel Cuello, tengo 19 años, vivo actualmente en la zona de Sayago dentro del departamento de Montevideo. Soy fanático de la tecnología informática, me gusta mucho aprender cosas nuevas todo el tiempo y sobre todo tipo de temas. Me gusta tocar el piano y la guitarra. Soy estudiante de ingeniería en computación y me gustaría en un futuro poder recibirme de esto porqué pienso que la informática es el futuro. Si ya estás aquí, da un vistazo a mi página para conocerme.</p>
 						<div class="text-center">
 							<a href="Archivos/CV-AxelCuello-ES.pdf" target="_blank"><button type="button" class="btn btn-primary">CV Español</button></a>
 							<a href="Archivos/CV-AxelCuello-EN.pdf" target="_blank"><button type="button" class="btn btn-success">CV Inglés</button></a>
@@ -105,9 +106,30 @@
 			</div>
 		</div>
 		<div id="Contacto" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
-  			<h1>Contacto</h1>
-  			<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  			<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  			<div id="demo" class="carousel slide" data-ride="carousel">
+  				<ul class="carousel-indicators">
+    				<li data-target="#demo" data-slide-to="0" class="active"></li>
+    				<li data-target="#demo" data-slide-to="1"></li>
+    				<li data-target="#demo" data-slide-to="2"></li>
+  				</ul>
+  				<div class="carousel-inner">
+    				<div class="carousel-item active">
+      					<img src="Imagenes/Proyecto-1.png" alt="Menú Principal" width="1100" height="500">
+    				</div>
+    				<div class="carousel-item">
+      					<img src="Imagenes/Proyecto-2.png" alt="Menú Reserva" width="1100" height="500">
+    				</div>
+    				<div class="carousel-item">
+      					<img src="Imagenes/Proyecto-3.png" alt="Menú Vehículos" width="1100" height="500">
+    				</div>
+  				</div>
+  				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+    				<span class="carousel-control-prev-icon"></span>
+  				</a>
+  				<a class="carousel-control-next" href="#demo" data-slide="next">
+    				<span class="carousel-control-next-icon"></span>
+  				</a>
+			</div>
 		</div>
 	</body>
 </html>
