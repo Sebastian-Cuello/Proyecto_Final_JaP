@@ -16,7 +16,7 @@
 		
 	</header>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
-		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="Barra">  
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">  
 			<a class="navbar-brand" style="color: white;">Axel Cuello</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		  		<span class="navbar-toggler-icon"></span>
@@ -30,6 +30,9 @@
       					<a class="nav-link" href="#Proyectos" style="color: white;">Proyectos</a>
     				</li>
     				<li class="nav-item">
+      					<a class="nav-link" href="#Competencias" style="color: white;">Competencias</a>
+    				</li>
+    				<li class="nav-item">
       					<a class="nav-link" href="#Contacto" style="color: white;">Contacto</a>
     				</li>
   				</ul>
@@ -37,99 +40,136 @@
 		</nav>
 		<div id="Inicio" class="container-fluid" style="padding-top:70px;padding-bottom:40px">
   			<div class="jumbotron" style="margin-bottom: 0px; margin-top: 20px; background-image: url(Imagenes/F-Biografía.jpg); background-repeat: no-repeat; background-size: cover;">
-			<h1 class="t-index" style="color: white;">Biografía</h1>
 				<div class="row">
 					<div class="col-md-3">
 						<img src="Imagenes/Yo.png" class="img-fluid mx-auto d-block">
 					</div>
 					<div class="col-md-9">
+						<h1 class="t-index" style="color: white;">Biografía</h1>
 						<p class="p-index" style="color: white;">Mi nombre es Axel Cuello, tengo 19 años, vivo actualmente en la zona de Sayago dentro del departamento de Montevideo. Soy fanático de la tecnología informática, me gusta mucho aprender cosas nuevas todo el tiempo y sobre todo tipo de temas. Me gusta tocar el piano y la guitarra. Soy estudiante de ingeniería en computación y me gustaría en un futuro poder recibirme de esto porqué pienso que la informática es el futuro. Si ya estás aquí, da un vistazo a mi página para conocerme.</p>
-						<div class="text-center">
+						<div>
 							<a href="Archivos/CV-AxelCuello-ES.pdf" target="_blank"><button type="button" class="btn btn-primary">CV Español</button></a>
 							<a href="Archivos/CV-AxelCuello-EN.pdf" target="_blank"><button type="button" class="btn btn-success">CV Inglés</button></a>
 							<a href="Archivos/Inglés-Preguntas.pdf" target="_blank"><button type="button" class="btn btn-warning">Preguntas</button></a>
 						</div>
-						
 					</div>
 				</div>
 			</div>
  		</div>
 		<div id="Proyectos" class="container-fluid" style="padding-bottom:70px">
- 			<h1 class="t-index">Mis Proyectos</h1>
- 			<h2 class="t-index">Proyecto de egreso UTU</h2>
- 			<div class="album text-muted">
-				<div class="container">
+			<h1 class="t-index" style="text-align: center; color: white;">Mis Proyectos</h1>
+ 			<div class="jumbotron B-Proyectos" style="margin-bottom: 20px; margin-top: 20px;">
+ 				<div class="container">
 					<div class="row">
-						<div class="card col-4">
-							<img src="Imagenes/Proyecto-1.png" alt="Menú Principal" data-holder-rendered="true" class="img-fluid">
-							<p class="card-text">
-								Aquí se puede ver el menú principal de la aplicación donde se puede acceder a las demás opciones
-							</p>
+						<div class="col-md-6">
+							<div id="carousel-1" class="carousel slide" data-ride="carousel">
+  								<ul class="carousel-indicators">
+    								<li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+    								<li data-target="#carousel-1" data-slide-to="1"></li>
+    								<li data-target="#carousel-1" data-slide-to="2"></li>
+    								<li data-target="#carousel-1" data-slide-to="3"></li>
+  								</ul>
+  								<div class="carousel-inner">
+    								<div class="carousel-item active">
+      									<img src="Imagenes/Proyecto-0.png" alt="Menú Principal">
+    								</div>
+    								<div class="carousel-item">
+      									<img src="Imagenes/Proyecto-1.png" alt="Menú Reserva">
+    								</div>
+    								<div class="carousel-item">
+      									<img src="Imagenes/Proyecto-2.png" alt="Menú Vehículos">
+    								</div>
+    								<div class="carousel-item">
+      									<img src="Imagenes/Proyecto-3.png" alt="Logo Principal">
+    								</div>
+  								</div>
+  								<a class="carousel-control-prev" href="#carousel-1" data-slide="prev">
+    								<span class="carousel-control-prev-icon"></span>
+  								</a>
+  								<a class="carousel-control-next" href="#carousel-1" data-slide="next">
+    								<span class="carousel-control-next-icon"></span>
+  								</a>
+							</div>
 						</div>
-						<div class="card col-4">
-							<img src="Imagenes/Proyecto-2.png" alt="Menú Reserva" data-holder-rendered="true" class="img-fluid">
-							<p class="card-text">
-								Aquí podemos gestionar todos los datos relacionados con las reservas hechas por lo clientes
-							</p>
-						</div>
-						<div class="card col-4">
-							<img src="Imagenes/Proyecto-3.png" alt="Menú Vehículos" data-holder-rendered="true" class="img-fluid">
-							<p class="card-text">
-								Aquí podemos gestionar todos los datos relacionados con las características del vehículo como por ejemplo el color
-							</p>
+						<div class="col-md-6">
+							<h1>Proyecto de egreso UTU</h1>
+							<p>Este proyecto fue diseñado por un equipo de 4 integrantes (incluyéndome) que consistía en diseñar un programa que fuera capaz de gestionar la información de una automotora y realizar tareas como, por ejemplo: Administrar la información de los clientes que reservan, las características de los vehículos, poder almacenar la información generada por el programa en una base de datos entre otras tareas.</p>
 						</div>
 					</div>
 				</div>
-			</div>
-			<h2 class="t-index">Página del instituto Plan Ceibal</h2>
-			<div class="container">
-				<div class="row">
-					<div class="card col-4">
-						<img src="Imagenes/Ceibal-1.png" alt="Página de cursos" data-holder-rendered="true" class="img-fluid">
-						<p class="card-text">
-							Aquí se puede observar los distintos cursos que ofrece el instituto
-						</p>
-					</div>
-					<div class="card col-4">
-						<img src="Imagenes/Ceibal-2.png" alt="Página de gestion de alumnos" data-holder-rendered="true" class="img-fluid">
-						<p class="card-text">
-							En esta página podemos gestionar los datos de los alumnos registrados en el instituto
-						</p>
-					</div>
-					<div class="card col-4">
-						<img src="Imagenes/Ceibal-3.png" alt="Página con la ubicación del instituto" data-holder-rendered="true" class="img-fluid">
-						<p class="card-text">
-							Aquí podemos localizar al instituto mediante el mapa proporcionado por google
-						</p>
+ 			</div>
+ 			<div class="jumbotron B-Proyectos">
+ 				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div id="carousel-2" class="carousel slide" data-ride="carousel">
+  								<ul class="carousel-indicators">
+    								<li data-target="#carousel-2" data-slide-to="0" class="active"></li>
+    								<li data-target="#carousel-2" data-slide-to="1"></li>
+    								<li data-target="#carousel-2" data-slide-to="2"></li>
+  								</ul>
+  								<div class="carousel-inner">
+    								<div class="carousel-item active">
+      									<img src="Imagenes/Ceibal-1.png" alt="Menú Principal">
+    								</div>
+    								<div class="carousel-item">
+      									<img src="Imagenes/Ceibal-2.png" alt="Menú Reserva">
+    								</div>
+    								<div class="carousel-item">
+      									<img src="Imagenes/Ceibal-3.png" alt="Menú Vehículos">
+    								</div>
+  								</div>
+  								<a class="carousel-control-prev" href="#carousel-2" data-slide="prev">
+    								<span class="carousel-control-prev-icon"></span>
+  								</a>
+  								<a class="carousel-control-next" href="#carousel-2" data-slide="next">
+    								<span class="carousel-control-next-icon"></span>
+  								</a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<h1 class="t-index">Página de un insituto</h1>
+							<p>Este práctico, que forma parte del curso de Jóvenes a programar, consistía en diseñar una página para un instituto de inglés e implementar un sencillo sistema de gestión que fuera capaz de añadir alumnos con ciertas características como: Edad, Nombre, Apellido, entre otros datos.</p>
+						</div>
 					</div>
 				</div>
-			</div>
+ 			</div>
+				
 		</div>
-		<div id="Contacto" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
-  			<div id="demo" class="carousel slide" data-ride="carousel">
-  				<ul class="carousel-indicators">
-    				<li data-target="#demo" data-slide-to="0" class="active"></li>
-    				<li data-target="#demo" data-slide-to="1"></li>
-    				<li data-target="#demo" data-slide-to="2"></li>
-  				</ul>
-  				<div class="carousel-inner">
-    				<div class="carousel-item active">
-      					<img src="Imagenes/Proyecto-1.png" alt="Menú Principal" width="1100" height="500">
-    				</div>
-    				<div class="carousel-item">
-      					<img src="Imagenes/Proyecto-2.png" alt="Menú Reserva" width="1100" height="500">
-    				</div>
-    				<div class="carousel-item">
-      					<img src="Imagenes/Proyecto-3.png" alt="Menú Vehículos" width="1100" height="500">
-    				</div>
+		<div id="Competencias" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+  			<h1>Competencias</h1>
+  			<div class="container">
+  				<div class="row">
+  					<div>
+              
+            </div>
   				</div>
-  				<a class="carousel-control-prev" href="#demo" data-slide="prev">
-    				<span class="carousel-control-prev-icon"></span>
-  				</a>
-  				<a class="carousel-control-next" href="#demo" data-slide="next">
-    				<span class="carousel-control-next-icon"></span>
-  				</a>
-			</div>
+  			</div>
+		</div>
+		<div id="Contacto" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+  			<h1>Formulario</h1>
+  			<div class="container">
+  				<div class="row">
+  					<div class="jumbotron col-md-6" style="">
+              <h1>Contacto</h1>
+              <form action="https://formspree.io/axel-cuello@hotmail.com" method="POST">
+                <div class="form-group">
+                  <label for="Nombre">Nombre</label>
+                  <input type="text" class="form-control required" id="Nombre" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                  <label for="Correo">Correo</label>
+                  <input type="email" class="form-control required" id="Correo" placeholder="Correo">
+                </div>
+                <div class="form-group">
+                  <label for="Mensaje">Mensaje</label>
+                  <textarea class="form-control required" id="Mensaje" rows="3" placeholder="Escribe aquí lo que quieras!"></textarea>
+                </div>
+                <button type="submit" id="Enviar" class="btn btn-primary">Enviar</button>
+              </form>
+            </div>
+  				</div>
+  			</div>
 		</div>
 	</body>
 </html>
