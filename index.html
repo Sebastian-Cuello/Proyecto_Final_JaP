@@ -147,23 +147,22 @@
   			</div>
 		</div>
 		<div id="Contacto" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
-  			<h1>Formulario</h1>
   			<div class="container">
-  				<div class="row">
+  				<div class="row justify-content-center align-items-center">
   					<div class="jumbotron col-md-6" style="">
               <h1>Contacto</h1>
               <form action="https://formspree.io/axel-cuello@hotmail.com" method="POST">
                 <div class="form-group">
                   <label for="Nombre">Nombre</label>
-                  <input type="text" class="form-control required" id="Nombre" placeholder="Nombre">
+                  <input type="text" class="form-control required" id="Nombre" placeholder="Nombre" name="name">
                 </div>
                 <div class="form-group">
                   <label for="Correo">Correo</label>
-                  <input type="email" class="form-control required" id="Correo" placeholder="Correo">
+                  <input type="email" class="form-control required" id="Correo" placeholder="Correo" name="_replayto">
                 </div>
                 <div class="form-group">
                   <label for="Mensaje">Mensaje</label>
-                  <textarea class="form-control required" id="Mensaje" rows="3" placeholder="Escribe aquí lo que quieras!"></textarea>
+                  <textarea class="form-control required" id="Mensaje" rows="3" placeholder="Escribe aquí lo que quieras!" name="message"></textarea>
                 </div>
                 <button type="submit" id="Enviar" class="btn btn-primary">Enviar</button>
               </form>
@@ -171,5 +170,6 @@
   				</div>
   			</div>
 		</div>
+    <div class="container-fluid" style="ba"></div>
 	</body>
 </html>
