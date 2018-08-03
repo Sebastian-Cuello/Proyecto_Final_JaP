@@ -4,9 +4,10 @@
 		<title>Presentación Axel Cuello</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="CSS/Estilo.css">
 		<script type="text/javascript" src="Scripts/Control.js"></script>
@@ -32,6 +33,9 @@
     				<li class="nav-item">
       					<a class="nav-link" href="#Competencias" style="color: white;">Competencias</a>
     				</li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Inglés" style="color: white;">Inglés</a>
+            </li>
     				<li class="nav-item">
       					<a class="nav-link" href="#Contacto" style="color: white;">Contacto</a>
     				</li>
@@ -129,12 +133,11 @@
 						</div>
 						<div class="col-md-6">
 							<h1 class="t-index">Página de un insituto</h1>
-							<p>Este práctico, que forma parte del curso de Jóvenes a programar, consistía en diseñar una página para un instituto de inglés e implementar un sencillo sistema de gestión que fuera capaz de añadir alumnos con ciertas características como: Edad, Nombre, Apellido, entre otros datos.</p>
+							<p>Este práctico, que formó parte del curso de Jóvenes a Programar, consistía en diseñar una página para un instituto de inglés e implementar un sencillo sistema de gestión que fuera capaz de añadir alumnos con ciertas características como: Edad, Nombre, Apellido, entre otros datos.</p>
 						</div>
 					</div>
 				</div>
  			</div>
-				
 		</div>
 		<div id="Competencias" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
   			<h1>Competencias</h1>
@@ -146,23 +149,35 @@
   				</div>
   			</div>
 		</div>
+    <div id="Inglés" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+        <h1>Inglés</h1>
+        <div class="container">
+          <div class="row">
+            <div>
+              
+            </div>
+          </div>
+        </div>
+    </div>
+
+
 		<div id="Contacto" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
   			<div class="container">
   				<div class="row justify-content-center align-items-center">
   					<div class="jumbotron col-md-6" style="">
-              <h1>Contacto</h1>
+              <h1 style="text-align: center;">Escríbeme</h1>
               <form action="https://formspree.io/axel-cuello@hotmail.com" method="POST">
                 <div class="form-group">
                   <label for="Nombre">Nombre</label>
-                  <input type="text" class="form-control required" id="Nombre" placeholder="Nombre" name="name">
+                  <input type="text" class="form-control" id="Nombre" placeholder="¿Como te llamas?" name="Nombre" required>
                 </div>
                 <div class="form-group">
                   <label for="Correo">Correo</label>
-                  <input type="email" class="form-control required" id="Correo" placeholder="Correo" name="_replayto">
+                  <input type="email" class="form-control" id="Correo" placeholder="Outlook, Gmail, etc" name="Correo" required>
                 </div>
                 <div class="form-group">
                   <label for="Mensaje">Mensaje</label>
-                  <textarea class="form-control required" id="Mensaje" rows="3" placeholder="Escribe aquí lo que quieras!" name="message"></textarea>
+                  <textarea class="form-control required" id="Mensaje" rows="3" placeholder="Escribe aquí lo que quieras!" name="Mensaje" required></textarea>
                 </div>
                 <button type="submit" id="Enviar" class="btn btn-primary">Enviar</button>
               </form>
@@ -170,6 +185,42 @@
   				</div>
   			</div>
 		</div>
-    <div class="container-fluid" style="ba"></div>
+    <div class="container-fluid" style="padding-top:20px;" id="foot">
+      <footer class="page-footer font-small blue pt-4">
+        <div class="container-fluid text-center text-md-left">
+          <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3">
+              <h5 class="text-uppercase links">Métodos de contacto</h5>
+              <p class="links">Aquí podras encontrar los links a mis redes sociales y otras páginas de mi portfolio Teléfono celular: (+598) 96 461 982</p>
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3">
+              <div class="col-md-3 mb-md-0 mb-3">
+                <h5 class="text-uppercase links">Portfolio</h5>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="https://www.freecodecamp.org/sebasti%C3%A1n%20cuello" class="links">FreeCodeCamp</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/XlizardX" class="links">GitHub</a>
+                  </li>
+                </ul>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                  <h5 class="text-uppercase links">Social</h5>
+                  <ul class="list-unstyled">
+                  <li>
+                    <a href="https://www.instagram.com/xsebastian_cuellox/"  class="links">Instagram</a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/sebastián-cuello-04b791169" class="links">LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+        <div class="footer-copyright text-center py-3" id="Copyright">© Axel Cuello - Todos los Derechos Reservados | Diseñado por mi
+        </div>
+      </footer>
+    </div>
 	</body>
 </html>

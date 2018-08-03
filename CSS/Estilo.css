@@ -10,6 +10,19 @@ html, body{
   max-width: 200px;
 }
 
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+       color: red !important;
+       background-color: white;
+}
+
+.nav-link {
+  color: white !important;
+  text-transform: uppercase;
+}
+.nav-link.active {
+  color: #FFCA47 !important;
+}
+
 @media screen and (max-width: 350px){
   .img-fluid{
     max-width:200px;
@@ -32,7 +45,7 @@ html, body{
 }
 
 #Proyectos {
-  background-image: url(../Imagenes/T-Texture.jpg);
+  background-image: url(../Imagenes/T-Texture.png);
   background-repeat: repeat;
 }
 
@@ -53,4 +66,23 @@ html, body{
 
 .carousel-control-next {
   background-color: rgba(0,0,0,0.1);
+}
+
+#foot {
+  background-color: rgb(132, 175, 244);
+}
+
+#Copyright {
+  background-color: rgb(61, 132, 247);
+  color: white;
+}
+
+.links {
+  color: white;
+}
+
+#Contacto {
+  background-image: url(../Imagenes/B-Contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
