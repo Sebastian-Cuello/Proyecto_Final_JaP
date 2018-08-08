@@ -49,12 +49,6 @@ html, body{
   background-repeat: repeat;
 }
 
-.B-Proyectos {
-  background-image: url(../Imagenes/T-Proyectos.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .carousel-inner img {
       width: 100%;
       height: 100%;
@@ -83,6 +77,18 @@ html, body{
 
 #Contacto {
   background-image: url(../Imagenes/B-Contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Sección Inglés */
+
+.titulos {
+  text-align: center;
+}
+
+#Inglés {
+  background-image: url(../Imagenes/B-English.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
