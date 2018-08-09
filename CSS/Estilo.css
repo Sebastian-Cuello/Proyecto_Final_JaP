@@ -81,6 +81,12 @@ html, body{
   background-repeat: no-repeat;
 }
 
+#Competencias {
+  background-image: url(../Imagenes/B-Competencias.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* Sección Inglés */
 
 .titulos {
