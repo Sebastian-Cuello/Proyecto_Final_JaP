@@ -1,4 +1,4 @@
-# xlizardx.github.io
+# HTML y CSS
 Proyecto final | Jóvenes a programar - Plan Ceibal
 Esta página es el proyecto final del curso Jóvenes a Programar dictado por el Plan Ceibal.
 Consiste mediante una página web, incorporar todos los conocimientos adquiridos durante el año en las asignaturas impartidas.
